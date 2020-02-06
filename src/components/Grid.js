@@ -1,7 +1,7 @@
 import React from 'react';
 
-export function Grid({ children }) {
-  return <div className="flex flex-wrap mb-4">{children}</div>;
+export function Grid({ children, className }) {
+  return <div className={`flex flex-wrap mb-4 ${className}`}>{children}</div>;
 }
 
 export function GridItem({ children, className }) {

@@ -4,66 +4,42 @@ import { ImagePreview } from './ImagePreview';
 
 export function InstaGallery() {
   return (
-    <Grid>
+    <Grid className="p-2">
       <GridItem>
-        <div className="bg-blue-300">
-          <ImagePreview src="/Art.jpg" alt="Art!" filter="kelvin"/>
-        </div>
+        <ImagePreview src="/Art.jpg" alt="Art!" filter="kelvin"/>
       </GridItem>
       <GridItem>
-        <div className="bg-blue-300">
-          <ImagePreview src="/Family_Photo.jpg" alt="Family of teapots" filter="earlybird"/>
-        </div>
+        <ImagePreview src="/Family_Photo.jpg" alt="Family of teapots" filter="earlybird"/>
       </GridItem>
       <GridItem>
-        <div className="bg-blue-300">
-          <ImagePreview src="/Teapot_on_Windowsill.jpg" alt="Teapot on a windowsill"  filter="gingham"/>
-        </div>
+        <ImagePreview src="/Teapot_on_Windowsill.jpg" alt="Teapot on a windowsill"  filter="gingham"/>
       </GridItem>
       <GridItem>
-        <div className="bg-blue-300">
-          <ImagePreview src="/Art.jpg" alt="Art!"  filter="hudson"/>
-        </div>
+        <ImagePreview src="/Art.jpg" alt="Art!"  filter="hudson"/>
       </GridItem>
       <GridItem>
-        <div className="bg-blue-300">
-          <ImagePreview src="/Family_Photo.jpg" alt="Family of teapots"  filter="lark"/>
-        </div>
+        <ImagePreview src="/Family_Photo.jpg" alt="Family of teapots"  filter="lark"/>
       </GridItem>
       <GridItem>
-        <div className="bg-blue-300">
-          <ImagePreview src="/Teapot_on_Windowsill.jpg" alt="Teapot on a windowsill"  filter="moon"/>
-        </div>
+        <ImagePreview src="/Teapot_on_Windowsill.jpg" alt="Teapot on a windowsill"  filter="moon"/>
       </GridItem>
       <GridItem>
-        <div className="bg-blue-300">
-          <ImagePreview src="/Art.jpg" alt="Art!"  filter="nashville"/>
-        </div>
+        <ImagePreview src="/Art.jpg" alt="Art!"  filter="nashville"/>
       </GridItem>
       <GridItem>
-        <div className="bg-blue-300">
-          <ImagePreview src="/Family_Photo.jpg" alt="Family of teapots"  filter="rise"/>
-        </div>
+        <ImagePreview src="/Family_Photo.jpg" alt="Family of teapots"  filter="rise"/>
       </GridItem>
       <GridItem>
-        <div className="bg-blue-300">
-          <ImagePreview src="/Teapot_on_Windowsill.jpg" alt="Teapot on a windowsill"  filter="valencia"/>
-        </div>
+        <ImagePreview src="/Teapot_on_Windowsill.jpg" alt="Teapot on a windowsill"  filter="valencia"/>
       </GridItem>
       <GridItem>
-        <div className="bg-blue-300">
-          <ImagePreview src="/Art.jpg" alt="Art!"  filter="walden"/>
-        </div>
+        <ImagePreview src="/Art.jpg" alt="Art!"  filter="walden"/>
       </GridItem>
       <GridItem>
-        <div className="bg-blue-300">
-          <ImagePreview src="/Family_Photo.jpg" alt="Family of teapots"  filter="willow"/>
-        </div>
+        <ImagePreview src="/Family_Photo.jpg" alt="Family of teapots"  filter="willow"/>
       </GridItem>
       <GridItem>
-        <div className="bg-blue-300">
-          <ImagePreview src="/Teapot_on_Windowsill.jpg" alt="Teapot on a windowsill"  filter="xpro2"/>
-        </div>
+        <ImagePreview src="/Teapot_on_Windowsill.jpg" alt="Teapot on a windowsill"  filter="xpro2"/>
       </GridItem>
     </Grid>
   );
