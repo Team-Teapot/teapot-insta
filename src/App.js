@@ -3,7 +3,7 @@ import { InstaGallery } from './components/InstaGallery';
 
 function App() {
   return (
-    <div className="bg-blue-300">
+    <div className="bg-blue-300 h-screen">
       <h1 className="w-full bg-gray-800 text-white p-4 fixed top-0 z-10">Over-Engineered Teapot</h1>
       <div className="flex pt-16">
         <InstaGallery />

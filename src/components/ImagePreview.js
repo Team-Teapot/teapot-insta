@@ -33,13 +33,15 @@ export function ImagePreview({ src, alt, filter }) {
         />
       </button>
       {inspired && (
-        <button
-          onClick={onClick}
-          className="absolute top-0 right-0 bottom-0 left-0 flex justify-center items-center"
-          type="button"
-        >
-          {quote}
-        </button>
+        <div className="absolute top-0 right-0 bottom-0 left-0 flex justify-center items-center ">
+          <button
+            onClick={onClick}
+            className="text-center p-8 h-full w-full text-gray-900"
+            type="button"
+          >
+            {`"${quote}"`}
+          </button>
+        </div>
       )}
     </div>
   );
