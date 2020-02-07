@@ -15,7 +15,15 @@ export function Header() {
           to="/ali"
           className="text-white hover:text-gray-400 no-underline"
         >
-          <i className="fas fa-cookie-bite"/>
+          <i className="fas fa-cookie-bite" />
+        </Link>
+        <Link
+          aria-label="Tea Timer"
+          title="Tea Timer"
+          to="/timer"
+          className="text-white hover:text-gray-400 no-underline pl-4"
+        >
+          <i className="fas fa-mug-hot" />
         </Link>
         <Link
           aria-label="Image Gallery"
