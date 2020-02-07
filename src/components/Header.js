@@ -13,7 +13,7 @@ export function Header() {
           aria-label="Tea Appreciation Site"
           title="Tea Appreciation Site"
           to="/ali"
-          className="text-white hover:text-gray-400 no-underline"
+          className="text-white hover:text-gray-400 text-2xl no-underline"
         >
           <i className="fas fa-cookie-bite" />
         </Link>
@@ -21,7 +21,7 @@ export function Header() {
           aria-label="Tea Timer"
           title="Tea Timer"
           to="/timer"
-          className="text-white hover:text-gray-400 no-underline pl-4"
+          className="text-white hover:text-gray-400 text-2xl no-underline pl-4"
         >
           <i className="fas fa-mug-hot" />
         </Link>
@@ -29,7 +29,7 @@ export function Header() {
           aria-label="Image Gallery"
           title="Image Gallery"
           to="/"
-          className="text-white hover:text-gray-400 no-underline pl-4"
+          className="text-white hover:text-gray-400 text-2xl no-underline pl-4"
         >
           <i className="far fa-images" />
         </Link>
