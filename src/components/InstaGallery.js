@@ -36,8 +36,8 @@ export function InstaGallery() {
       </GridItem>
       <GridItem>
         <ImagePreview
-          src="/Art.jpg"
-          alt="Art!"
+          src="/All_Business_All_The_Time.jpg"
+          alt="A teapot that is all business"
           filter="hudson"
           inspiredId={inspiredId}
           setInspiredId={setInspiredId}
@@ -45,8 +45,8 @@ export function InstaGallery() {
       </GridItem>
       <GridItem>
         <ImagePreview
-          src="/Family_Photo.jpg"
-          alt="Family of teapots"
+          src="/Cool_Guys_Dont_Look_At_Explosions.jpg"
+          alt="A teapot with gaze averted"
           filter="lark"
           inspiredId={inspiredId}
           setInspiredId={setInspiredId}
@@ -54,18 +54,17 @@ export function InstaGallery() {
       </GridItem>
       <GridItem>
         <ImagePreview
-          src="/Teapot_on_Windowsill.jpg"
-          alt="Teapot on a windowsill"
-          filter="moon"
+          src="/Power_Pose.jpg"
+          alt="A teapot boldly striking a pose"
+          filter="nashville"
           inspiredId={inspiredId}
           setInspiredId={setInspiredId}
         />
       </GridItem>
       <GridItem>
         <ImagePreview
-          src="/Art.jpg"
-          alt="Art!"
-          filter="nashville"
+          src="/Hashtag_No_Filter.jpg"
+          alt="A teapot au naturale"
           inspiredId={inspiredId}
           setInspiredId={setInspiredId}
         />
