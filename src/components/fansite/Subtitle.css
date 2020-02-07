@@ -1,0 +1,14 @@
+.Subtitle {
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    max-width: 100%;
+    text-align: center;
+    display: flex
+    
+    
+}
+
+.Subsubtitle {
+    align-content: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}

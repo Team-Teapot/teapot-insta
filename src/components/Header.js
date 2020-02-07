@@ -6,9 +6,9 @@ export function Header() {
     <div className="w-full bg-gray-800 text-white pt-4 pb-4 pl-8 pr-8 fixed top-0 z-10 flex justify-between">
       <h1 className="flex">
         <img src="/logo.svg" alt="Logo of a teapot" className="h-10 w-10" />
-        <span className="pl-4 font-bold">Over-Engineered Teapot</span>
+        <span style={{ fontFamily: "'Open Sans', 'Helvetica Neue', Arial, sans-serif" }} className="pl-4 font-bold">WE ❤️ TEA</span>
       </h1>
-      <div className="text-2xl">
+      <div>
         <Link
           aria-label="Tea Appreciation Site"
           title="Tea Appreciation Site"

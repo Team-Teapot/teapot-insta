@@ -8,6 +8,8 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
+import FansitePage from "./components/FansitePage"; 
+
 import { Timer } from './components/Timer';
 
 function App() {
@@ -21,7 +23,7 @@ function App() {
               <InstaGallery />
             </Route>
             <Route path="/ali">
-              <div>Ali's site here</div>
+              <div><FansitePage /></div>
             </Route>
             <Route path="/timer">
               <Timer />
