@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { inspiration } from '../miscellany/inspiration';
-import uuidv4 from 'uuid/v4';
+import React, { useState } from "react";
+import { inspiration } from "../miscellany/inspiration";
+import uuidv4 from "uuid/v4";
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
@@ -8,7 +8,7 @@ function getRandomInt(max) {
 
 export function ImagePreview({ src, alt, filter, inspiredId, setInspiredId }) {
   const [uuid] = useState(uuidv4());
-  const [className, setClassName] = useState('inkwell');
+  const [className, setClassName] = useState("inkwell");
 
   const [quote] = useState(
     inspiration.quotes[getRandomInt(inspiration.quotes.length)]
@@ -17,17 +17,17 @@ export function ImagePreview({ src, alt, filter, inspiredId, setInspiredId }) {
   const inspired = inspiredId === uuid;
 
   return (
-    <div className="relative rounded shadow-lg overflow-hidden bg-white">
+    <div className="relative rounded shadow-lg overflow-hidden">
       <button
         onMouseEnter={() => setClassName(filter)}
-        onMouseLeave={() => setClassName('inkwell')}
+        onMouseLeave={() => setClassName("inkwell")}
         onClick={() => setInspiredId(uuid)}
-        className="h-full w-full"
+        className={`h-full w-full ${inspired ? "bg-gray-300" : ""}`}
       >
         <img
           className={`${className} ${
-            inspired ? 'opacity-25' : ''
-            } transition duration-500 ease-in-out h-full w-full`}
+            inspired ? "opacity-25" : ""
+          } transition duration-500 ease-in-out`}
           src={src}
           alt={alt}
         />
