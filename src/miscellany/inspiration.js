@@ -11,6 +11,7 @@ export const inspiration = {
     'Don\'t you agree that there\'s tiers of hype?',
     'I can see you\'re clearly balancing efficiency and accuracy.',
     'What is your favourite of the four loops?',
-    'Just don\'t write bugs'
+    'Just don\'t write bugs',
+    'They do go to the gym these days, such strong arms'
   ]
 };
