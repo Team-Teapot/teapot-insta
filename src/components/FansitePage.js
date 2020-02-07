@@ -10,7 +10,7 @@ import "../App.css"
 
 function FansitePage() {
   return (
-    <div className="FansitePage">
+    <div className="FansitePage" style={{ background: 'white' }}>
       <Navbar />
       <header className="App-header">
         <Masthead />
@@ -36,7 +36,6 @@ function FansitePage() {
         <MockeryBlockColumn text="The most expensive tea bag in the world was created by Boodles jewellers to celebrate PG Tips 75th birthday. The diamond-encrusted bag was worth £7000 and was auctioned off for charity." />
       </MockeryBlock>
       <ContactPain />
-      <Footer />
     </div>
   );
 }

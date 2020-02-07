@@ -1,0 +1,57 @@
+@keyframes weak-to-intermediate {
+    0% {
+        color: rgb(248, 220, 173);
+        transform: rotateY(0deg);
+    }
+    100% {
+        color: rgb(170, 116, 81);
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes intermediate-to-acceptable {
+    0% {
+        color: rgb(170, 116, 81);
+        transform: rotateY(0deg);
+    }
+    100% {
+        color: rgb(112, 68, 54);
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes acceptable-to-proper {
+    0% {
+        color: rgb(112, 68, 54);
+        transform: rotateY(0deg);
+    }
+    100% {
+        color: rgb(43, 32, 31);
+        transform: rotateY(360deg);
+    }
+}
+
+.tea-mug {
+    font-size: 200px;
+}
+
+.weak-tea {
+    color: rgb(248, 220, 173);
+    animation: weak-to-intermediate 60s linear;
+}
+
+.intermediate-tea {
+    color: rgb(170, 116, 81);
+    animation: intermediate-to-acceptable 60s linear;
+}
+
+.acceptable-tea {
+    color: rgb(112, 68, 54);
+    animation: acceptable-to-proper 60s linear;
+}
+
+.proper-tea {
+    color: rgb(43, 32, 31);
+}
+
+
