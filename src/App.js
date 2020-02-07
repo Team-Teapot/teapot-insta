@@ -8,6 +8,8 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
+import FansitePage from "./components/FansitePage"; 
+
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
               <InstaGallery />
             </Route>
             <Route path="/ali">
-              <div>Ali's site here</div>
+              <div><FansitePage /></div>
             </Route>
             <Redirect to="/" />
           </Switch>

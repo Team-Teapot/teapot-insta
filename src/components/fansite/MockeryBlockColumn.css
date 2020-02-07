@@ -1,0 +1,20 @@
+.MockeryBlockColumn {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    flex: 1 1 auto;
+    max-width: 20%;
+    text-align: center;
+
+}
+
+.MockeryBlockHeading {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.MockeryBlockText {
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.MockeryBlockImage {
+    height: 100px;
+}
