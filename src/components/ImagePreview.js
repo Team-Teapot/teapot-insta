@@ -14,8 +14,6 @@ export function ImagePreview({ src, alt, filter, inspiredId, setInspiredId }) {
     inspiration.quotes[getRandomInt(inspiration.quotes.length)]
   );
 
-  const onClick = () => setInspiredId(uuid);
-
   const inspired = inspiredId === uuid;
 
   return (
@@ -23,7 +21,7 @@ export function ImagePreview({ src, alt, filter, inspiredId, setInspiredId }) {
       <button
         onMouseEnter={() => setClassName(filter)}
         onMouseLeave={() => setClassName('inkwell')}
-        onClick={onClick}
+        onClick={() => setInspiredId(uuid)}
         className="h-full w-full"
       >
         <img
@@ -37,7 +35,7 @@ export function ImagePreview({ src, alt, filter, inspiredId, setInspiredId }) {
       {inspired && (
         <div className="absolute top-0 right-0 bottom-0 left-0 flex justify-center items-center ">
           <button
-            onClick={onClick}
+            onClick={() => setInspiredId(null)}
             className="text-center p-8 h-full w-full text-gray-900"
             type="button"
           >
