@@ -8,19 +8,23 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
+import { Timer } from './components/Timer';
 
 function App() {
   return (
     <Router>
-      <div className="bg-blue-300 h-screen">
+      <div className="bg-blue-300 h-full min-h-screen">
         <Header />
-        <div className="flex pt-16">
+        <div className="flex pt-16 pb-16 h-full min-h-screen">
           <Switch>
             <Route path="/" exact>
               <InstaGallery />
             </Route>
             <Route path="/ali">
               <div>Ali's site here</div>
+            </Route>
+            <Route path="/timer">
+              <Timer />
             </Route>
             <Redirect to="/" />
           </Switch>
