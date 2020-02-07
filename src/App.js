@@ -13,9 +13,9 @@ import { Timer } from './components/Timer';
 function App() {
   return (
     <Router>
-      <div className="bg-blue-300 h-full">
+      <div className="bg-blue-300 h-full min-h-screen">
         <Header />
-        <div className="flex pt-16">
+        <div className="flex pt-16 pb-16 h-full min-h-screen">
           <Switch>
             <Route path="/" exact>
               <InstaGallery />
