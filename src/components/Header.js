@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 export function Header() {
   return (
-    <h1 className="w-full bg-gray-800 text-white pt-4 pb-4 pl-8 pr-8 fixed top-0 z-10 flex justify-between">
-      <div className="flex">
+    <div className="w-full bg-gray-800 text-white pt-4 pb-4 pl-8 pr-8 fixed top-0 z-10 flex justify-between">
+      <h1 className="flex">
         <img src="/logo.svg" alt="Logo of a teapot" className="h-10 w-10" />
         <span className="pl-4 font-bold">Over-Engineered Teapot</span>
-      </div>
-      <div>
+      </h1>
+      <div className="text-2xl">
         <Link
           aria-label="Tea Appreciation Site"
           title="Tea Appreciation Site"
@@ -26,6 +26,6 @@ export function Header() {
           <i className="far fa-images" />
         </Link>
       </div>
-    </h1>
+    </div>
   );
 }
