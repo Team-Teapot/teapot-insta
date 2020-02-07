@@ -36,6 +36,15 @@ export function InstaGallery() {
       </GridItem>
       <GridItem>
         <ImagePreview
+          src="/Richards_Patriotic_Teapot.png"
+          alt="A teapot that is proud to be British"
+          filter="xpro2"
+          inspiredId={inspiredId}
+          setInspiredId={setInspiredId}
+        />
+      </GridItem>
+      <GridItem>
+        <ImagePreview
           src="/All_Business_All_The_Time.jpg"
           alt="A teapot that is all business"
           filter="hudson"
@@ -101,15 +110,6 @@ export function InstaGallery() {
           src="/Family_Photo.jpg"
           alt="Family of teapots"
           filter="willow"
-          inspiredId={inspiredId}
-          setInspiredId={setInspiredId}
-        />
-      </GridItem>
-      <GridItem>
-        <ImagePreview
-          src="/Teapot_on_Windowsill.jpg"
-          alt="Teapot on a windowsill"
-          filter="xpro2"
           inspiredId={inspiredId}
           setInspiredId={setInspiredId}
         />
