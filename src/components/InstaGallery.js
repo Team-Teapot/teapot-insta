@@ -6,7 +6,7 @@ export function InstaGallery() {
   const [inspiredId, setInspiredId] = useState(null);
 
   return (
-    <Grid className="p-2">
+    <Grid className="p-2 h-full w-full">
       <GridItem>
         <ImagePreview
           src="/Art.jpg"
