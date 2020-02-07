@@ -17,7 +17,7 @@ export function ImagePreview({ src, alt, filter, inspiredId, setInspiredId }) {
   const inspired = inspiredId === uuid;
 
   return (
-    <div className="relative rounded shadow-lg overflow-hidden h-full bg-white">
+    <div className="max-h-card relative rounded shadow-lg overflow-hidden h-full bg-white ">
       <button
         onMouseEnter={() => setClassName(filter)}
         onMouseLeave={() => setClassName("inkwell")}
