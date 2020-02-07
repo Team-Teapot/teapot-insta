@@ -12,7 +12,7 @@ export function Header() {
         <Link
           aria-label="Tea Appreciation Site"
           title="Tea Appreciation Site"
-          to="/ali"
+          to="/"
           className="text-white hover:text-gray-400 text-2xl no-underline"
         >
           <i className="fas fa-cookie-bite" />
@@ -28,7 +28,7 @@ export function Header() {
         <Link
           aria-label="Image Gallery"
           title="Image Gallery"
-          to="/"
+          to="/gallery"
           className="text-white hover:text-gray-400 text-2xl no-underline pl-4"
         >
           <i className="far fa-images" />

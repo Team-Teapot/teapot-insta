@@ -8,7 +8,7 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
-import FansitePage from "./components/FansitePage"; 
+import FansitePage from "./components/FansitePage";
 
 import { Timer } from './components/Timer';
 
@@ -20,13 +20,13 @@ function App() {
         <div className="flex pt-16 pb-16 h-full min-h-screen">
           <Switch>
             <Route path="/" exact>
-              <InstaGallery />
-            </Route>
-            <Route path="/ali">
-              <div><FansitePage /></div>
+              <FansitePage />
             </Route>
             <Route path="/timer">
               <Timer />
+            </Route>
+            <Route path="/gallery">
+              <InstaGallery />
             </Route>
             <Redirect to="/" />
           </Switch>
