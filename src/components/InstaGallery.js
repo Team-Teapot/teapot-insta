@@ -18,6 +18,24 @@ export function InstaGallery() {
       </GridItem>
       <GridItem>
         <ImagePreview
+          src="/Art_2.jpg"
+          alt="Freya's beautiful teapot."
+          filter="valencia"
+          inspiredId={inspiredId}
+          setInspiredId={setInspiredId}
+        />
+      </GridItem>
+      <GridItem>
+        <ImagePreview
+          src="/Matts_Teapot.jpg"
+          alt="Teapot, with pleasantly reserved floral pattern, atop a bee print towel."
+          filter="willow"
+          inspiredId={inspiredId}
+          setInspiredId={setInspiredId}
+        />
+      </GridItem>
+      <GridItem>
+        <ImagePreview
           src="/Family_Photo.jpg"
           alt="Family of teapots"
           filter="earlybird"
@@ -89,27 +107,9 @@ export function InstaGallery() {
       </GridItem>
       <GridItem>
         <ImagePreview
-          src="/Teapot_on_Windowsill.jpg"
-          alt="Teapot on a windowsill"
-          filter="valencia"
-          inspiredId={inspiredId}
-          setInspiredId={setInspiredId}
-        />
-      </GridItem>
-      <GridItem>
-        <ImagePreview
           src="/Art.jpg"
           alt="Art!"
           filter="walden"
-          inspiredId={inspiredId}
-          setInspiredId={setInspiredId}
-        />
-      </GridItem>
-      <GridItem>
-        <ImagePreview
-          src="/Family_Photo.jpg"
-          alt="Family of teapots"
-          filter="willow"
           inspiredId={inspiredId}
           setInspiredId={setInspiredId}
         />
