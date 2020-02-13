@@ -14,6 +14,7 @@ export const inspiration = {
     'Just don\'t write bugs',
     'They do go to the gym these days, such strong arms',
     'Failure to prepare is preparing for failure',
-    'That has happened every other time we\'ve tried this stuff, but this time will be different.'
+    'That has happened every other time we\'ve tried this stuff, but this time will be different.',
+    'To beat a hacker, you need to think like a hacker'
   ]
 };
