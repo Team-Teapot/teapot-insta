@@ -13291,6 +13291,10 @@ code {
     monospace;
 }
 
+.max-h-card {
+  max-height: 22rem;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

@@ -98,8 +98,8 @@ export function InstaGallery() {
       </GridItem>
       <GridItem>
         <ImagePreview
-          src="/Family_Photo.jpg"
-          alt="Family of teapots"
+          src="/Phillips_Teapot.jpg"
+          alt="Teapot owned by our man Phillip"
           filter="rise"
           inspiredId={inspiredId}
           setInspiredId={setInspiredId}
