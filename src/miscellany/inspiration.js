@@ -13,6 +13,7 @@ export const inspiration = {
     'What is your favourite of the four loops?',
     'Just don\'t write bugs',
     'They do go to the gym these days, such strong arms',
-    'Failure to prepare is preparing for failure'
+    'Failure to prepare is preparing for failure',
+    'That has happened every other time we\'ve tried this stuff, but this time will be different.'
   ]
 };
