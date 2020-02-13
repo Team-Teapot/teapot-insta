@@ -12,6 +12,7 @@ export const inspiration = {
     'I can see you\'re clearly balancing efficiency and accuracy.',
     'What is your favourite of the four loops?',
     'Just don\'t write bugs',
-    'They do go to the gym these days, such strong arms'
+    'They do go to the gym these days, such strong arms',
+    'Failure to prepare is preparing for failure'
   ]
 };
